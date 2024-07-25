@@ -317,6 +317,8 @@
     <None Include="Resources\アイコン楕円.png" />
     <None Include="Resources\アイコン三角.png" />
     <Content Include="ゆっくりメテオさん★.ico" />
+    <EmbeddedResource Include="スポイト1.cur" />
+    <EmbeddedResource Include="スポイト3.cur" />
     <Content Include="紫陽花1_2.ico" />
   </ItemGroup>
   <ItemGroup>

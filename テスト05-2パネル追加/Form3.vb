@@ -2,6 +2,8 @@
 Imports System.IO
 Imports System.Runtime.Serialization.Formatters.Binary
 Imports System.Drawing.Imaging
+Imports System.Reflection
+Imports System.Resources
 
 Public Class Form3
 
@@ -28,7 +30,7 @@ Public Class Form3
 
     '文字の描画
     Friend Sub StringDraw()
-        
+
         'Call Form1.StringDraw4()
 
         'Dim mySt As String = Me.ComboBoxString.Text
@@ -187,7 +189,7 @@ Public Class Form3
         'For Each c As FontFamily In ffs
         '    ComboBoxFont.Items.Add(c.Name)
         'Next
-        
+
 
         'ウィンドウの位置
         Dim myPoint As Point
@@ -262,7 +264,7 @@ Public Class Form3
 
         newH = CInt(Math.Round(newColorPic.BackColor.GetHue))
         Me.ToolTip1.SetToolTip(newColorPic, "色相_" & newH & vbNewLine & newColorPic.BackColor.ToString)
-       
+
         Call ChangeSaturationColorBar彩度カラーバー更新(Me.PictureBoxSaturationOld, oldH, Me.TrackBarBrightnessOld.Value / 100)
         Call ChangeBrightnessColorBar明度カラーバー更新(Me.PictureBoxBrightnessOld, oldH, Me.TrackBarSaturationOld.Value / 100)
 
@@ -1506,7 +1508,18 @@ Public Class Form3
             Form1.FlagFrom3ShapeColor1 = False
         ElseIf Form1.FlagColor = False Then
             Dim sp As Cursor
-            sp = New Cursor("E:\オレ\アイコン\マウスカーソル\スポイト1.cur")
+            Dim rresouceName As String = "Pixtack.スポイト1.cur"
+
+            'sp = New Cursor("E:\オレ\アイコン\マウスカーソル\スポイト1.cur")
+            Dim aaa = Assembly.GetExecutingAssembly()
+            Using rrr = aaa.GetManifestResourceStream(rresouceName)
+                If rrr Is Nothing Then
+                    sp = Cursors.Cross
+                Else
+                    sp = New Cursor(rrr)
+                End If
+            End Using
+
             Me.Cursor = sp
 
             'Me.Cursor = Cursors.Cross
@@ -1613,7 +1626,7 @@ Public Class Form3
         Next
     End Sub
 
-   
+
     Private Sub ButtonRectRangeCopyPaste_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonRectRangeCopyPaste.Click
         'Call Form1.RectRangeCopyPaste()
         Call Form1.SelectRangeCopyPaste()
@@ -2667,7 +2680,16 @@ Public Class Form3
         With Form1
             .IsGetColor表示画像から色取得中 = True
             Dim spc As Cursor
-            spc = New Cursor("E:\オレ\アイコン\マウスカーソル\スポイト3.cur")
+            Dim curName As String = "Pixtack.スポイト3.cur"
+            Dim asm = Assembly.GetExecutingAssembly()
+            Using resource = asm.GetManifestResourceStream(curName)
+                If resource Is Nothing Then
+                    spc = Cursors.Cross
+                Else
+                    spc = New Cursor(resource)
+                End If
+            End Using
+            'spc = New Cursor("E:\オレ\アイコン\マウスカーソル\スポイト3.cur")
             Me.Cursor = spc
             .Cursor = spc
             .GetColorPic色取得中のPictureBox = PicBox
@@ -2951,18 +2973,18 @@ Public Class Form3
 
     End Function
     Private Function GetDrawString描画位置判定用文字取得(str As String, myFont As Font, sFormat As StringFormat) As String
-        Dim motoStr As SizeF = DrawSize文字の描画サイズ取得(Str, myFont, sFormat) '描画文字のサイズ
+        Dim motoStr As SizeF = DrawSize文字の描画サイズ取得(str, myFont, sFormat) '描画文字のサイズ
         'str.Replace(vbNewLine, "")
         'str.Replace(Chr(13), "").Replace(Chr(10), "") '改行を削除しようとしたけどこれではできなかった
         'str.Replace(vbLf, "").Replace(vbCr, "").Replace(vbCrLf, "").Replace(vbNullChar, "") '.Replace(vbNullString, "")
         'Dim newStr As SizeF = DrawSize文字の描画サイズ取得(str, myFont, sFormat)
 
-        Str = "jygfkl" '英数字だけの時のサイズ
-        Dim eigoSizeF As SizeF = DrawSize文字の描画サイズ取得(Str, myFont, sFormat)
+        str = "jygfkl" '英数字だけの時のサイズ
+        Dim eigoSizeF As SizeF = DrawSize文字の描画サイズ取得(str, myFont, sFormat)
         'str = "文字"
         'Dim jSizeF As SizeF = DrawSize文字の描画サイズ取得(str, myFont, sFormat)
-        Str = "jygfkl文字" '混載の時のサイズ
-        Dim ejSizeF As SizeF = DrawSize文字の描画サイズ取得(Str, myFont, sFormat)
+        str = "jygfkl文字" '混載の時のサイズ
+        Dim ejSizeF As SizeF = DrawSize文字の描画サイズ取得(str, myFont, sFormat)
 
         '上限下限の判定に使う文字列の決定
         '元の文字列のサイズが混載の時のサイズ以上なら複数行か混載なのであとは調整の有無
@@ -2971,26 +2993,26 @@ Public Class Form3
             Dim hs As Single = motoStr.Height
             If hs >= ejSizeF.Height Then
                 If CheckBoxStringAdjust位置調整.Checked Then
-                    Str = "jygfkl文字"
+                    str = "jygfkl文字"
                 Else
-                    Str = "文字"
+                    str = "文字"
                 End If
 
             ElseIf hs = eigoSizeF.Height Then
-                Str = "jygfkl"
+                str = "jygfkl"
 
             End If
         Else '縦書の場合
             Dim ws As Single = motoStr.Width
             If ws >= ejSizeF.Width Then
                 If CheckBoxStringAdjust位置調整.Checked Then
-                    Str = "jygfkl文字"
+                    str = "jygfkl文字"
                 Else
-                    Str = "文字"
+                    str = "文字"
 
                 End If
             ElseIf ws = eigoSizeF.Width Then
-                Str = "jygfkl"
+                str = "jygfkl"
             End If
         End If
         Return str
@@ -4726,11 +4748,24 @@ Public Class Form3
         Call Form1.HueInvert色相反転(Form1.ActExPic, sftHue)
 
     End Sub
-   
+
+
     '色相変換ここまで
 
 
+    Private Sub PictureBoxPenの色_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBoxPenの色.MouseDown
+        Call GetColorToPictureBoxBackcolorピクチャーボックスに画像から色の取得(sender)
+    End Sub
 
+    Private Sub PictureBoxShape2影の色_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBoxShape2影の色.MouseDown
+        Call GetColorToPictureBoxBackcolorピクチャーボックスに画像から色の取得(sender)
+    End Sub
 
- 
+    Private Sub RGB表示更新(sender As Object, e As EventArgs) Handles PictureBoxShapeColor1.BackColorChanged
+
+    End Sub
+
+    Private Sub PictureBoxStringShadowColor2_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBoxStringShadowColor2.MouseDown
+
+    End Sub
 End Class

@@ -137,7 +137,6 @@ Partial Class Form3
         Me.TrackBarRoundRect = New System.Windows.Forms.TrackBar()
         Me.ButtonShapeColorChange2 = New System.Windows.Forms.Button()
         Me.LabelShapeColor3 = New System.Windows.Forms.Label()
-        Me.PictureBoxShapeColor3 = New System.Windows.Forms.PictureBox()
         Me.NumericUpDownSquareTransparent3 = New System.Windows.Forms.NumericUpDown()
         Me.ButtonSquareColor3 = New System.Windows.Forms.Button()
         Me.GroupBoxShapeGradaColorType = New System.Windows.Forms.GroupBox()
@@ -152,8 +151,6 @@ Partial Class Form3
         Me.LabelShapeColor1HSV_ = New System.Windows.Forms.Label()
         Me.LabelShapeColor1HSV = New System.Windows.Forms.Label()
         Me.ButtonRectangleAddBlend = New System.Windows.Forms.Button()
-        Me.PictureBoxShapeColor2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBoxShapeColor1 = New System.Windows.Forms.PictureBox()
         Me.LabelViewRGB = New System.Windows.Forms.Label()
         Me.ButtonShapeColorChange = New System.Windows.Forms.Button()
         Me.LabelShapeColor2 = New System.Windows.Forms.Label()
@@ -240,8 +237,6 @@ Partial Class Form3
         Me.CheckBoxLinkedStringBGTransparent = New System.Windows.Forms.CheckBox()
         Me.LabelStringBackGradAngle = New System.Windows.Forms.Label()
         Me.NumericUpDownStringBackGradAngle文字背景グラデ角度 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBoxStringBGColor2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBoxStringBGColor1 = New System.Windows.Forms.PictureBox()
         Me.LabelStringBackRoundrect背景丸さ = New System.Windows.Forms.Label()
         Me.TrackBarStringBackRoundrect = New System.Windows.Forms.TrackBar()
         Me.ButtonStringTransparent255 = New System.Windows.Forms.Button()
@@ -271,9 +266,7 @@ Partial Class Form3
         Me.Label文字背景枠幅 = New System.Windows.Forms.Label()
         Me.NumericUpDownStringBGFrameWidth枠幅 = New System.Windows.Forms.NumericUpDown()
         Me.ButtonStringBGFrameColorChange = New System.Windows.Forms.Button()
-        Me.PictureBoxStringBGFrameColor2 = New System.Windows.Forms.PictureBox()
         Me.NumericUpDownStringBGFrameTransparent2 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBoxStringBGFrameColor1 = New System.Windows.Forms.PictureBox()
         Me.NumericUpDownStringBGFrameTransparent1 = New System.Windows.Forms.NumericUpDown()
         Me.GroupBoxStringBGFrameColor = New System.Windows.Forms.GroupBox()
         Me.NumericUpDownStringBGFrameGradationAngle = New System.Windows.Forms.NumericUpDown()
@@ -294,7 +287,6 @@ Partial Class Form3
         Me.LabelStringShadow横 = New System.Windows.Forms.Label()
         Me.NumericUpDownStringShadowH横 = New System.Windows.Forms.NumericUpDown()
         Me.ButtonStringShadowColorChange = New System.Windows.Forms.Button()
-        Me.PictureBoxStringShadowColor2 = New System.Windows.Forms.PictureBox()
         Me.NumericUpDownStringShadowColorTransparent2 = New System.Windows.Forms.NumericUpDown()
         Me.NumericUpDownStringShadowColorTransparent1 = New System.Windows.Forms.NumericUpDown()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
@@ -315,8 +307,6 @@ Partial Class Form3
         Me.CheckBoxLinkedStringFringeTransparent = New System.Windows.Forms.CheckBox()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.NumericUpDownStringFringeGradationAngleグラデ角度 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBoxStringFringeColor2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBoxStringFringeColor1 = New System.Windows.Forms.PictureBox()
         Me.ButtonStringFringeT不透明 = New System.Windows.Forms.Button()
         Me.ButtonStringFringeT半透明 = New System.Windows.Forms.Button()
         Me.ButtonStringFringeT透明 = New System.Windows.Forms.Button()
@@ -336,7 +326,6 @@ Partial Class Form3
         Me.TabPageDrawPath = New System.Windows.Forms.TabPage()
         Me.CheckBoxShape2Shadow図形2影 = New System.Windows.Forms.CheckBox()
         Me.ButtonColor影の色 = New System.Windows.Forms.Button()
-        Me.PictureBoxShape2影の色 = New System.Windows.Forms.PictureBox()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.ButtonMouseDeDrawLineマウスで描画 = New System.Windows.Forms.Button()
         Me.CheckBoxLinkedPictureSize頂点と画像サイズ連動 = New System.Windows.Forms.CheckBox()
@@ -373,7 +362,6 @@ Partial Class Form3
         Me.Button編集開始2 = New System.Windows.Forms.Button()
         Me.ButtonDraw直線 = New System.Windows.Forms.Button()
         Me.Button確認用 = New System.Windows.Forms.Button()
-        Me.PictureBoxPenの色 = New System.Windows.Forms.PictureBox()
         Me.NumericUpDownPathPenの太さ = New System.Windows.Forms.NumericUpDown()
         Me.CheckBoxGridFitShape図形をグリッドに合わせる = New System.Windows.Forms.CheckBox()
         Me.TabPageColorMatrix = New System.Windows.Forms.TabPage()
@@ -539,8 +527,20 @@ Partial Class Form3
         Me.CheckBoxTextItalic = New System.Windows.Forms.CheckBox()
         Me.CheckBoxTextBold = New System.Windows.Forms.CheckBox()
         Me.CheckBoxStringShadow = New System.Windows.Forms.CheckBox()
+        Me.PictureBoxStringBGColor2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxStringBGColor1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxStringBGFrameColor2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxStringBGFrameColor1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxStringShadowColor2 = New System.Windows.Forms.PictureBox()
         Me.PictureBoxStringShadowColor1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxStringFringeColor2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxStringFringeColor1 = New System.Windows.Forms.PictureBox()
         Me.ComboBoxAllFonts = New System.Windows.Forms.ComboBox()
+        Me.PictureBoxShapeColor3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxShapeColor2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxShapeColor1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxShape2影の色 = New System.Windows.Forms.PictureBox()
+        Me.PictureBoxPenの色 = New System.Windows.Forms.PictureBox()
         CType(Me.NumericUpDownAbsTra, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxTranspCol, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownTCol, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -581,11 +581,8 @@ Partial Class Form3
         CType(Me.NumericUpDownStringGradientAngle, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBoxSquareAdd.SuspendLayout()
         CType(Me.TrackBarRoundRect, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxShapeColor3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownSquareTransparent3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBoxShapeGradaColorType.SuspendLayout()
-        CType(Me.PictureBoxShapeColor2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxShapeColor1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBarShapeGammaB, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBarShapeGammaG, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBarShapeGammaR, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -613,24 +610,19 @@ Partial Class Form3
         Me.TabPageString文字の背景設定.SuspendLayout()
         Me.GroupBoxTextBackColor.SuspendLayout()
         CType(Me.NumericUpDownStringBackGradAngle文字背景グラデ角度, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxStringBGColor2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxStringBGColor1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TrackBarStringBackRoundrect, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownTextTransparent1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownTextTransparent2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPageStringWaku枠.SuspendLayout()
         CType(Me.TrackBarStringBGRoundRect文字枠の丸さ, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownStringBGFrameWidth枠幅, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxStringBGFrameColor2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownStringBGFrameTransparent2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxStringBGFrameColor1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownStringBGFrameTransparent1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBoxStringBGFrameColor.SuspendLayout()
         CType(Me.NumericUpDownStringBGFrameGradationAngle, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPageStringShadow文字影.SuspendLayout()
         CType(Me.NumericUpDownStringShadowV縦, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownStringShadowH横, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxStringShadowColor2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownStringShadowColorTransparent2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownStringShadowColorTransparent1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox5.SuspendLayout()
@@ -638,16 +630,12 @@ Partial Class Form3
         Me.TabPageStringFringe縁取り.SuspendLayout()
         CType(Me.NumericUpDownStringFringeWidth, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownStringFringeGradationAngleグラデ角度, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxStringFringeColor2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxStringFringeColor1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownStringFringeTransparent1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownStringFringeTransparent2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxTextSample, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPageRect.SuspendLayout()
         Me.TabPageDrawPath.SuspendLayout()
-        CType(Me.PictureBoxShape2影の色, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown曲線のテンション, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBoxPenの色, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDownPathPenの太さ, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPageColorMatrix.SuspendLayout()
         Me.TabPageColorChange.SuspendLayout()
@@ -707,7 +695,19 @@ Partial Class Form3
         CType(Me.NumericUpDownStringFringeBold, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxTextColor2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxTextColor1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxStringBGColor2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxStringBGColor1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxStringBGFrameColor2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxStringBGFrameColor1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxStringShadowColor2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBoxStringShadowColor1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxStringFringeColor2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxStringFringeColor1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxShapeColor3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxShapeColor2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxShapeColor1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxShape2影の色, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBoxPenの色, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ButtonAbsTra
@@ -1589,7 +1589,7 @@ Partial Class Form3
         Me.NumericUpDownGrBl.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownGrBl.Name = "NumericUpDownGrBl"
         Me.NumericUpDownGrBl.Size = New System.Drawing.Size(50, 23)
-        Me.NumericUpDownGrBl.TabIndex = 51
+        Me.NumericUpDownGrBl.TabIndex = 39
         Me.NumericUpDownGrBl.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownGrBl.Value = New Decimal(New Integer() {128, 0, 0, 0})
         '
@@ -2027,22 +2027,13 @@ Partial Class Form3
         Me.LabelShapeColor3.TabIndex = 141
         Me.LabelShapeColor3.Text = "000 000 000"
         '
-        'PictureBoxShapeColor3
-        '
-        Me.PictureBoxShapeColor3.BackColor = System.Drawing.Color.Black
-        Me.PictureBoxShapeColor3.Location = New System.Drawing.Point(1, 168)
-        Me.PictureBoxShapeColor3.Name = "PictureBoxShapeColor3"
-        Me.PictureBoxShapeColor3.Size = New System.Drawing.Size(24, 23)
-        Me.PictureBoxShapeColor3.TabIndex = 140
-        Me.PictureBoxShapeColor3.TabStop = False
-        '
         'NumericUpDownSquareTransparent3
         '
         Me.NumericUpDownSquareTransparent3.Location = New System.Drawing.Point(58, 168)
         Me.NumericUpDownSquareTransparent3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownSquareTransparent3.Name = "NumericUpDownSquareTransparent3"
         Me.NumericUpDownSquareTransparent3.Size = New System.Drawing.Size(43, 23)
-        Me.NumericUpDownSquareTransparent3.TabIndex = 2
+        Me.NumericUpDownSquareTransparent3.TabIndex = 5
         Me.NumericUpDownSquareTransparent3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownSquareTransparent3.Value = New Decimal(New Integer() {255, 0, 0, 0})
         '
@@ -2194,24 +2185,6 @@ Partial Class Form3
         Me.ButtonRectangleAddBlend.Text = "作成4"
         Me.ButtonRectangleAddBlend.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.ButtonRectangleAddBlend.UseVisualStyleBackColor = False
-        '
-        'PictureBoxShapeColor2
-        '
-        Me.PictureBoxShapeColor2.BackColor = System.Drawing.Color.Black
-        Me.PictureBoxShapeColor2.Location = New System.Drawing.Point(1, 146)
-        Me.PictureBoxShapeColor2.Name = "PictureBoxShapeColor2"
-        Me.PictureBoxShapeColor2.Size = New System.Drawing.Size(24, 23)
-        Me.PictureBoxShapeColor2.TabIndex = 123
-        Me.PictureBoxShapeColor2.TabStop = False
-        '
-        'PictureBoxShapeColor1
-        '
-        Me.PictureBoxShapeColor1.BackColor = System.Drawing.Color.Black
-        Me.PictureBoxShapeColor1.Location = New System.Drawing.Point(1, 124)
-        Me.PictureBoxShapeColor1.Name = "PictureBoxShapeColor1"
-        Me.PictureBoxShapeColor1.Size = New System.Drawing.Size(24, 23)
-        Me.PictureBoxShapeColor1.TabIndex = 122
-        Me.PictureBoxShapeColor1.TabStop = False
         '
         'LabelViewRGB
         '
@@ -2391,7 +2364,7 @@ Partial Class Form3
         Me.NumericUpDownSquareTransparent2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownSquareTransparent2.Name = "NumericUpDownSquareTransparent2"
         Me.NumericUpDownSquareTransparent2.Size = New System.Drawing.Size(43, 23)
-        Me.NumericUpDownSquareTransparent2.TabIndex = 1
+        Me.NumericUpDownSquareTransparent2.TabIndex = 4
         Me.NumericUpDownSquareTransparent2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownSquareTransparent2.Value = New Decimal(New Integer() {255, 0, 0, 0})
         '
@@ -2460,7 +2433,7 @@ Partial Class Form3
         Me.NumericUpDownSquareTransparent.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownSquareTransparent.Name = "NumericUpDownSquareTransparent"
         Me.NumericUpDownSquareTransparent.Size = New System.Drawing.Size(43, 23)
-        Me.NumericUpDownSquareTransparent.TabIndex = 0
+        Me.NumericUpDownSquareTransparent.TabIndex = 3
         Me.NumericUpDownSquareTransparent.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownSquareTransparent.Value = New Decimal(New Integer() {255, 0, 0, 0})
         '
@@ -2682,7 +2655,7 @@ Partial Class Form3
         Me.NumericUpDownRedBlue.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownRedBlue.Name = "NumericUpDownRedBlue"
         Me.NumericUpDownRedBlue.Size = New System.Drawing.Size(42, 23)
-        Me.NumericUpDownRedBlue.TabIndex = 75
+        Me.NumericUpDownRedBlue.TabIndex = 41
         Me.NumericUpDownRedBlue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownRedBlue.Value = New Decimal(New Integer() {128, 0, 0, 0})
         '
@@ -2692,7 +2665,7 @@ Partial Class Form3
         Me.NumericUpDownGreen.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownGreen.Name = "NumericUpDownGreen"
         Me.NumericUpDownGreen.Size = New System.Drawing.Size(42, 23)
-        Me.NumericUpDownGreen.TabIndex = 74
+        Me.NumericUpDownGreen.TabIndex = 40
         Me.NumericUpDownGreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownGreen.Value = New Decimal(New Integer() {128, 0, 0, 0})
         '
@@ -2720,7 +2693,7 @@ Partial Class Form3
         Me.NumericUpDownRedGreen.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownRedGreen.Name = "NumericUpDownRedGreen"
         Me.NumericUpDownRedGreen.Size = New System.Drawing.Size(42, 23)
-        Me.NumericUpDownRedGreen.TabIndex = 80
+        Me.NumericUpDownRedGreen.TabIndex = 44
         Me.NumericUpDownRedGreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownRedGreen.Value = New Decimal(New Integer() {128, 0, 0, 0})
         '
@@ -2730,7 +2703,7 @@ Partial Class Form3
         Me.NumericUpDownBlue.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownBlue.Name = "NumericUpDownBlue"
         Me.NumericUpDownBlue.Size = New System.Drawing.Size(42, 23)
-        Me.NumericUpDownBlue.TabIndex = 79
+        Me.NumericUpDownBlue.TabIndex = 43
         Me.NumericUpDownBlue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownBlue.Value = New Decimal(New Integer() {128, 0, 0, 0})
         '
@@ -3198,26 +3171,6 @@ Partial Class Form3
         Me.NumericUpDownStringBackGradAngle文字背景グラデ角度.TabIndex = 126
         Me.NumericUpDownStringBackGradAngle文字背景グラデ角度.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'PictureBoxStringBGColor2
-        '
-        Me.PictureBoxStringBGColor2.BackColor = System.Drawing.Color.Black
-        Me.PictureBoxStringBGColor2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBoxStringBGColor2.Location = New System.Drawing.Point(14, 68)
-        Me.PictureBoxStringBGColor2.Name = "PictureBoxStringBGColor2"
-        Me.PictureBoxStringBGColor2.Size = New System.Drawing.Size(21, 21)
-        Me.PictureBoxStringBGColor2.TabIndex = 113
-        Me.PictureBoxStringBGColor2.TabStop = False
-        '
-        'PictureBoxStringBGColor1
-        '
-        Me.PictureBoxStringBGColor1.BackColor = System.Drawing.Color.Black
-        Me.PictureBoxStringBGColor1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBoxStringBGColor1.Location = New System.Drawing.Point(14, 44)
-        Me.PictureBoxStringBGColor1.Name = "PictureBoxStringBGColor1"
-        Me.PictureBoxStringBGColor1.Size = New System.Drawing.Size(21, 21)
-        Me.PictureBoxStringBGColor1.TabIndex = 86
-        Me.PictureBoxStringBGColor1.TabStop = False
-        '
         'LabelStringBackRoundrect背景丸さ
         '
         Me.LabelStringBackRoundrect背景丸さ.Location = New System.Drawing.Point(82, 162)
@@ -3392,7 +3345,7 @@ Partial Class Form3
         Me.NumericUpDownTextTransparent2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownTextTransparent2.Name = "NumericUpDownTextTransparent2"
         Me.NumericUpDownTextTransparent2.Size = New System.Drawing.Size(43, 23)
-        Me.NumericUpDownTextTransparent2.TabIndex = 114
+        Me.NumericUpDownTextTransparent2.TabIndex = 90
         Me.NumericUpDownTextTransparent2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownTextTransparent2.Value = New Decimal(New Integer() {128, 0, 0, 0})
         '
@@ -3410,13 +3363,13 @@ Partial Class Form3
         Me.TabPageStringWaku枠.Controls.Add(Me.Label文字背景枠幅)
         Me.TabPageStringWaku枠.Controls.Add(Me.NumericUpDownStringBGFrameWidth枠幅)
         Me.TabPageStringWaku枠.Controls.Add(Me.ButtonStringBGFrameColorChange)
-        Me.TabPageStringWaku枠.Controls.Add(Me.PictureBoxStringBGFrameColor2)
         Me.TabPageStringWaku枠.Controls.Add(Me.NumericUpDownStringBGFrameTransparent2)
-        Me.TabPageStringWaku枠.Controls.Add(Me.PictureBoxStringBGFrameColor1)
         Me.TabPageStringWaku枠.Controls.Add(Me.NumericUpDownStringBGFrameTransparent1)
         Me.TabPageStringWaku枠.Controls.Add(Me.GroupBoxStringBGFrameColor)
         Me.TabPageStringWaku枠.Controls.Add(Me.ButtonStringBGFrameColor1)
         Me.TabPageStringWaku枠.Controls.Add(Me.ButtonStringBGFrameColor2)
+        Me.TabPageStringWaku枠.Controls.Add(Me.PictureBoxStringBGFrameColor2)
+        Me.TabPageStringWaku枠.Controls.Add(Me.PictureBoxStringBGFrameColor1)
         Me.TabPageStringWaku枠.Location = New System.Drawing.Point(4, 24)
         Me.TabPageStringWaku枠.Name = "TabPageStringWaku枠"
         Me.TabPageStringWaku枠.Padding = New System.Windows.Forms.Padding(3)
@@ -3530,16 +3483,6 @@ Partial Class Form3
         Me.ButtonStringBGFrameColorChange.Text = "替"
         Me.ButtonStringBGFrameColorChange.UseVisualStyleBackColor = True
         '
-        'PictureBoxStringBGFrameColor2
-        '
-        Me.PictureBoxStringBGFrameColor2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBoxStringBGFrameColor2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBoxStringBGFrameColor2.Location = New System.Drawing.Point(7, 71)
-        Me.PictureBoxStringBGFrameColor2.Name = "PictureBoxStringBGFrameColor2"
-        Me.PictureBoxStringBGFrameColor2.Size = New System.Drawing.Size(21, 21)
-        Me.PictureBoxStringBGFrameColor2.TabIndex = 128
-        Me.PictureBoxStringBGFrameColor2.TabStop = False
-        '
         'NumericUpDownStringBGFrameTransparent2
         '
         Me.NumericUpDownStringBGFrameTransparent2.Location = New System.Drawing.Point(61, 69)
@@ -3549,16 +3492,6 @@ Partial Class Form3
         Me.NumericUpDownStringBGFrameTransparent2.TabIndex = 130
         Me.NumericUpDownStringBGFrameTransparent2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownStringBGFrameTransparent2.Value = New Decimal(New Integer() {255, 0, 0, 0})
-        '
-        'PictureBoxStringBGFrameColor1
-        '
-        Me.PictureBoxStringBGFrameColor1.BackColor = System.Drawing.Color.Black
-        Me.PictureBoxStringBGFrameColor1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBoxStringBGFrameColor1.Location = New System.Drawing.Point(7, 47)
-        Me.PictureBoxStringBGFrameColor1.Name = "PictureBoxStringBGFrameColor1"
-        Me.PictureBoxStringBGFrameColor1.Size = New System.Drawing.Size(21, 21)
-        Me.PictureBoxStringBGFrameColor1.TabIndex = 127
-        Me.PictureBoxStringBGFrameColor1.TabStop = False
         '
         'NumericUpDownStringBGFrameTransparent1
         '
@@ -3673,12 +3606,12 @@ Partial Class Form3
         Me.TabPageStringShadow文字影.Controls.Add(Me.LabelStringShadow横)
         Me.TabPageStringShadow文字影.Controls.Add(Me.NumericUpDownStringShadowH横)
         Me.TabPageStringShadow文字影.Controls.Add(Me.ButtonStringShadowColorChange)
-        Me.TabPageStringShadow文字影.Controls.Add(Me.PictureBoxStringShadowColor2)
         Me.TabPageStringShadow文字影.Controls.Add(Me.NumericUpDownStringShadowColorTransparent2)
         Me.TabPageStringShadow文字影.Controls.Add(Me.NumericUpDownStringShadowColorTransparent1)
         Me.TabPageStringShadow文字影.Controls.Add(Me.GroupBox5)
         Me.TabPageStringShadow文字影.Controls.Add(Me.ButtonStringShadowColor1)
         Me.TabPageStringShadow文字影.Controls.Add(Me.ButtonStringShadowColor2)
+        Me.TabPageStringShadow文字影.Controls.Add(Me.PictureBoxStringShadowColor2)
         Me.TabPageStringShadow文字影.Controls.Add(Me.PictureBoxStringShadowColor1)
         Me.TabPageStringShadow文字影.Location = New System.Drawing.Point(4, 24)
         Me.TabPageStringShadow文字影.Name = "TabPageStringShadow文字影"
@@ -3731,7 +3664,7 @@ Partial Class Form3
         Me.NumericUpDownStringShadowV縦.Minimum = New Decimal(New Integer() {100, 0, 0, -2147483648})
         Me.NumericUpDownStringShadowV縦.Name = "NumericUpDownStringShadowV縦"
         Me.NumericUpDownStringShadowV縦.Size = New System.Drawing.Size(45, 23)
-        Me.NumericUpDownStringShadowV縦.TabIndex = 172
+        Me.NumericUpDownStringShadowV縦.TabIndex = 170
         Me.NumericUpDownStringShadowV縦.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownStringShadowV縦.Value = New Decimal(New Integer() {10, 0, 0, 0})
         '
@@ -3773,16 +3706,6 @@ Partial Class Form3
         Me.ButtonStringShadowColorChange.TabIndex = 164
         Me.ButtonStringShadowColorChange.Text = "替"
         Me.ButtonStringShadowColorChange.UseVisualStyleBackColor = True
-        '
-        'PictureBoxStringShadowColor2
-        '
-        Me.PictureBoxStringShadowColor2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBoxStringShadowColor2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBoxStringShadowColor2.Location = New System.Drawing.Point(10, 72)
-        Me.PictureBoxStringShadowColor2.Name = "PictureBoxStringShadowColor2"
-        Me.PictureBoxStringShadowColor2.Size = New System.Drawing.Size(21, 21)
-        Me.PictureBoxStringShadowColor2.TabIndex = 166
-        Me.PictureBoxStringShadowColor2.TabStop = False
         '
         'NumericUpDownStringShadowColorTransparent2
         '
@@ -4006,24 +3929,6 @@ Partial Class Form3
         Me.NumericUpDownStringFringeGradationAngleグラデ角度.TabIndex = 148
         Me.NumericUpDownStringFringeGradationAngleグラデ角度.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'PictureBoxStringFringeColor2
-        '
-        Me.PictureBoxStringFringeColor2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBoxStringFringeColor2.Location = New System.Drawing.Point(13, 105)
-        Me.PictureBoxStringFringeColor2.Name = "PictureBoxStringFringeColor2"
-        Me.PictureBoxStringFringeColor2.Size = New System.Drawing.Size(21, 21)
-        Me.PictureBoxStringFringeColor2.TabIndex = 146
-        Me.PictureBoxStringFringeColor2.TabStop = False
-        '
-        'PictureBoxStringFringeColor1
-        '
-        Me.PictureBoxStringFringeColor1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBoxStringFringeColor1.Location = New System.Drawing.Point(13, 81)
-        Me.PictureBoxStringFringeColor1.Name = "PictureBoxStringFringeColor1"
-        Me.PictureBoxStringFringeColor1.Size = New System.Drawing.Size(21, 21)
-        Me.PictureBoxStringFringeColor1.TabIndex = 136
-        Me.PictureBoxStringFringeColor1.TabStop = False
-        '
         'ButtonStringFringeT不透明
         '
         Me.ButtonStringFringeT不透明.Location = New System.Drawing.Point(109, 41)
@@ -4123,7 +4028,7 @@ Partial Class Form3
         Me.NumericUpDownStringFringeTransparent2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.NumericUpDownStringFringeTransparent2.Name = "NumericUpDownStringFringeTransparent2"
         Me.NumericUpDownStringFringeTransparent2.Size = New System.Drawing.Size(43, 23)
-        Me.NumericUpDownStringFringeTransparent2.TabIndex = 147
+        Me.NumericUpDownStringFringeTransparent2.TabIndex = 140
         Me.NumericUpDownStringFringeTransparent2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.NumericUpDownStringFringeTransparent2.Value = New Decimal(New Integer() {255, 0, 0, 0})
         '
@@ -4181,7 +4086,6 @@ Partial Class Form3
         '
         Me.TabPageDrawPath.Controls.Add(Me.CheckBoxShape2Shadow図形2影)
         Me.TabPageDrawPath.Controls.Add(Me.ButtonColor影の色)
-        Me.TabPageDrawPath.Controls.Add(Me.PictureBoxShape2影の色)
         Me.TabPageDrawPath.Controls.Add(Me.Button9)
         Me.TabPageDrawPath.Controls.Add(Me.ButtonMouseDeDrawLineマウスで描画)
         Me.TabPageDrawPath.Controls.Add(Me.CheckBoxLinkedPictureSize頂点と画像サイズ連動)
@@ -4218,9 +4122,10 @@ Partial Class Form3
         Me.TabPageDrawPath.Controls.Add(Me.Button編集開始2)
         Me.TabPageDrawPath.Controls.Add(Me.ButtonDraw直線)
         Me.TabPageDrawPath.Controls.Add(Me.Button確認用)
-        Me.TabPageDrawPath.Controls.Add(Me.PictureBoxPenの色)
         Me.TabPageDrawPath.Controls.Add(Me.NumericUpDownPathPenの太さ)
         Me.TabPageDrawPath.Controls.Add(Me.CheckBoxGridFitShape図形をグリッドに合わせる)
+        Me.TabPageDrawPath.Controls.Add(Me.PictureBoxShape2影の色)
+        Me.TabPageDrawPath.Controls.Add(Me.PictureBoxPenの色)
         Me.TabPageDrawPath.Location = New System.Drawing.Point(4, 44)
         Me.TabPageDrawPath.Name = "TabPageDrawPath"
         Me.TabPageDrawPath.Padding = New System.Windows.Forms.Padding(3)
@@ -4247,15 +4152,6 @@ Partial Class Form3
         Me.ButtonColor影の色.TabIndex = 47
         Me.ButtonColor影の色.Text = "影の色"
         Me.ButtonColor影の色.UseVisualStyleBackColor = True
-        '
-        'PictureBoxShape2影の色
-        '
-        Me.PictureBoxShape2影の色.BackColor = System.Drawing.Color.DarkGray
-        Me.PictureBoxShape2影の色.Location = New System.Drawing.Point(223, 187)
-        Me.PictureBoxShape2影の色.Name = "PictureBoxShape2影の色"
-        Me.PictureBoxShape2影の色.Size = New System.Drawing.Size(54, 23)
-        Me.PictureBoxShape2影の色.TabIndex = 46
-        Me.PictureBoxShape2影の色.TabStop = False
         '
         'Button9
         '
@@ -4602,15 +4498,6 @@ Partial Class Form3
         Me.Button確認用.TabIndex = 4
         Me.Button確認用.Text = "確認用"
         Me.Button確認用.UseVisualStyleBackColor = True
-        '
-        'PictureBoxPenの色
-        '
-        Me.PictureBoxPenの色.BackColor = System.Drawing.Color.Cyan
-        Me.PictureBoxPenの色.Location = New System.Drawing.Point(223, 162)
-        Me.PictureBoxPenの色.Name = "PictureBoxPenの色"
-        Me.PictureBoxPenの色.Size = New System.Drawing.Size(54, 23)
-        Me.PictureBoxPenの色.TabIndex = 2
-        Me.PictureBoxPenの色.TabStop = False
         '
         'NumericUpDownPathPenの太さ
         '
@@ -6588,6 +6475,61 @@ Partial Class Form3
         Me.CheckBoxStringShadow.Text = "影"
         Me.CheckBoxStringShadow.UseVisualStyleBackColor = True
         '
+        'PictureBoxStringBGColor2
+        '
+        Me.PictureBoxStringBGColor2.BackColor = Global.Pixtack.My.MySettings.Default.文字背景色2
+        Me.PictureBoxStringBGColor2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBoxStringBGColor2.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "文字背景色2", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxStringBGColor2.Location = New System.Drawing.Point(14, 68)
+        Me.PictureBoxStringBGColor2.Name = "PictureBoxStringBGColor2"
+        Me.PictureBoxStringBGColor2.Size = New System.Drawing.Size(21, 21)
+        Me.PictureBoxStringBGColor2.TabIndex = 113
+        Me.PictureBoxStringBGColor2.TabStop = False
+        '
+        'PictureBoxStringBGColor1
+        '
+        Me.PictureBoxStringBGColor1.BackColor = Global.Pixtack.My.MySettings.Default.文字背景色1
+        Me.PictureBoxStringBGColor1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBoxStringBGColor1.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "文字背景色1", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxStringBGColor1.Location = New System.Drawing.Point(14, 44)
+        Me.PictureBoxStringBGColor1.Name = "PictureBoxStringBGColor1"
+        Me.PictureBoxStringBGColor1.Size = New System.Drawing.Size(21, 21)
+        Me.PictureBoxStringBGColor1.TabIndex = 86
+        Me.PictureBoxStringBGColor1.TabStop = False
+        '
+        'PictureBoxStringBGFrameColor2
+        '
+        Me.PictureBoxStringBGFrameColor2.BackColor = Global.Pixtack.My.MySettings.Default.文字枠色2
+        Me.PictureBoxStringBGFrameColor2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBoxStringBGFrameColor2.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "文字枠色2", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxStringBGFrameColor2.Location = New System.Drawing.Point(7, 71)
+        Me.PictureBoxStringBGFrameColor2.Name = "PictureBoxStringBGFrameColor2"
+        Me.PictureBoxStringBGFrameColor2.Size = New System.Drawing.Size(21, 21)
+        Me.PictureBoxStringBGFrameColor2.TabIndex = 128
+        Me.PictureBoxStringBGFrameColor2.TabStop = False
+        '
+        'PictureBoxStringBGFrameColor1
+        '
+        Me.PictureBoxStringBGFrameColor1.BackColor = Global.Pixtack.My.MySettings.Default.文字枠色1
+        Me.PictureBoxStringBGFrameColor1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBoxStringBGFrameColor1.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "文字枠色1", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxStringBGFrameColor1.Location = New System.Drawing.Point(7, 47)
+        Me.PictureBoxStringBGFrameColor1.Name = "PictureBoxStringBGFrameColor1"
+        Me.PictureBoxStringBGFrameColor1.Size = New System.Drawing.Size(21, 21)
+        Me.PictureBoxStringBGFrameColor1.TabIndex = 127
+        Me.PictureBoxStringBGFrameColor1.TabStop = False
+        '
+        'PictureBoxStringShadowColor2
+        '
+        Me.PictureBoxStringShadowColor2.BackColor = Global.Pixtack.My.MySettings.Default.文字影色2
+        Me.PictureBoxStringShadowColor2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBoxStringShadowColor2.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "文字影色2", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxStringShadowColor2.Location = New System.Drawing.Point(10, 72)
+        Me.PictureBoxStringShadowColor2.Name = "PictureBoxStringShadowColor2"
+        Me.PictureBoxStringShadowColor2.Size = New System.Drawing.Size(21, 21)
+        Me.PictureBoxStringShadowColor2.TabIndex = 166
+        Me.PictureBoxStringShadowColor2.TabStop = False
+        '
         'PictureBoxStringShadowColor1
         '
         Me.PictureBoxStringShadowColor1.BackColor = Global.Pixtack.My.MySettings.Default.文字の描画_影_色1
@@ -6598,6 +6540,28 @@ Partial Class Form3
         Me.PictureBoxStringShadowColor1.Size = New System.Drawing.Size(21, 21)
         Me.PictureBoxStringShadowColor1.TabIndex = 165
         Me.PictureBoxStringShadowColor1.TabStop = False
+        '
+        'PictureBoxStringFringeColor2
+        '
+        Me.PictureBoxStringFringeColor2.BackColor = Global.Pixtack.My.MySettings.Default.文字縁取り色2
+        Me.PictureBoxStringFringeColor2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBoxStringFringeColor2.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "文字縁取り色2", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxStringFringeColor2.Location = New System.Drawing.Point(13, 105)
+        Me.PictureBoxStringFringeColor2.Name = "PictureBoxStringFringeColor2"
+        Me.PictureBoxStringFringeColor2.Size = New System.Drawing.Size(21, 21)
+        Me.PictureBoxStringFringeColor2.TabIndex = 146
+        Me.PictureBoxStringFringeColor2.TabStop = False
+        '
+        'PictureBoxStringFringeColor1
+        '
+        Me.PictureBoxStringFringeColor1.BackColor = Global.Pixtack.My.MySettings.Default.文字縁取り色1
+        Me.PictureBoxStringFringeColor1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBoxStringFringeColor1.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "文字縁取り色1", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxStringFringeColor1.Location = New System.Drawing.Point(13, 81)
+        Me.PictureBoxStringFringeColor1.Name = "PictureBoxStringFringeColor1"
+        Me.PictureBoxStringFringeColor1.Size = New System.Drawing.Size(21, 21)
+        Me.PictureBoxStringFringeColor1.TabIndex = 136
+        Me.PictureBoxStringFringeColor1.TabStop = False
         '
         'ComboBoxAllFonts
         '
@@ -6610,6 +6574,56 @@ Partial Class Form3
         Me.ComboBoxAllFonts.Size = New System.Drawing.Size(235, 23)
         Me.ComboBoxAllFonts.TabIndex = 2
         Me.ComboBoxAllFonts.Text = Global.Pixtack.My.MySettings.Default.FontName
+        '
+        'PictureBoxShapeColor3
+        '
+        Me.PictureBoxShapeColor3.BackColor = Global.Pixtack.My.MySettings.Default.図形の色3
+        Me.PictureBoxShapeColor3.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "図形の色3", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxShapeColor3.Location = New System.Drawing.Point(1, 168)
+        Me.PictureBoxShapeColor3.Name = "PictureBoxShapeColor3"
+        Me.PictureBoxShapeColor3.Size = New System.Drawing.Size(24, 23)
+        Me.PictureBoxShapeColor3.TabIndex = 140
+        Me.PictureBoxShapeColor3.TabStop = False
+        '
+        'PictureBoxShapeColor2
+        '
+        Me.PictureBoxShapeColor2.BackColor = Global.Pixtack.My.MySettings.Default.図形の色2
+        Me.PictureBoxShapeColor2.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "図形の色2", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxShapeColor2.Location = New System.Drawing.Point(1, 146)
+        Me.PictureBoxShapeColor2.Name = "PictureBoxShapeColor2"
+        Me.PictureBoxShapeColor2.Size = New System.Drawing.Size(24, 23)
+        Me.PictureBoxShapeColor2.TabIndex = 123
+        Me.PictureBoxShapeColor2.TabStop = False
+        '
+        'PictureBoxShapeColor1
+        '
+        Me.PictureBoxShapeColor1.BackColor = Global.Pixtack.My.MySettings.Default.図形の色1
+        Me.PictureBoxShapeColor1.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "図形の色1", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxShapeColor1.Location = New System.Drawing.Point(1, 124)
+        Me.PictureBoxShapeColor1.Name = "PictureBoxShapeColor1"
+        Me.PictureBoxShapeColor1.Size = New System.Drawing.Size(24, 23)
+        Me.PictureBoxShapeColor1.TabIndex = 122
+        Me.PictureBoxShapeColor1.TabStop = False
+        '
+        'PictureBoxShape2影の色
+        '
+        Me.PictureBoxShape2影の色.BackColor = Global.Pixtack.My.MySettings.Default.図形2線の影の色
+        Me.PictureBoxShape2影の色.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "図形2線の影の色", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxShape2影の色.Location = New System.Drawing.Point(223, 187)
+        Me.PictureBoxShape2影の色.Name = "PictureBoxShape2影の色"
+        Me.PictureBoxShape2影の色.Size = New System.Drawing.Size(54, 23)
+        Me.PictureBoxShape2影の色.TabIndex = 46
+        Me.PictureBoxShape2影の色.TabStop = False
+        '
+        'PictureBoxPenの色
+        '
+        Me.PictureBoxPenの色.BackColor = Global.Pixtack.My.MySettings.Default.図形2線の色
+        Me.PictureBoxPenの色.DataBindings.Add(New System.Windows.Forms.Binding("BackColor", Global.Pixtack.My.MySettings.Default, "図形2線の色", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBoxPenの色.Location = New System.Drawing.Point(223, 162)
+        Me.PictureBoxPenの色.Name = "PictureBoxPenの色"
+        Me.PictureBoxPenの色.Size = New System.Drawing.Size(54, 23)
+        Me.PictureBoxPenの色.TabIndex = 2
+        Me.PictureBoxPenの色.TabStop = False
         '
         'Form3
         '
@@ -6678,12 +6692,9 @@ Partial Class Form3
         Me.GroupBoxSquareAdd.ResumeLayout(False)
         Me.GroupBoxSquareAdd.PerformLayout()
         CType(Me.TrackBarRoundRect, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxShapeColor3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownSquareTransparent3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBoxShapeGradaColorType.ResumeLayout(False)
         Me.GroupBoxShapeGradaColorType.PerformLayout()
-        CType(Me.PictureBoxShapeColor2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxShapeColor1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrackBarShapeGammaB, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrackBarShapeGammaG, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrackBarShapeGammaR, System.ComponentModel.ISupportInitialize).EndInit()
@@ -6714,8 +6725,6 @@ Partial Class Form3
         Me.GroupBoxTextBackColor.ResumeLayout(False)
         Me.GroupBoxTextBackColor.PerformLayout()
         CType(Me.NumericUpDownStringBackGradAngle文字背景グラデ角度, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxStringBGColor2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxStringBGColor1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TrackBarStringBackRoundrect, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownTextTransparent1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownTextTransparent2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -6723,9 +6732,7 @@ Partial Class Form3
         Me.TabPageStringWaku枠.PerformLayout()
         CType(Me.TrackBarStringBGRoundRect文字枠の丸さ, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownStringBGFrameWidth枠幅, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxStringBGFrameColor2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownStringBGFrameTransparent2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxStringBGFrameColor1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownStringBGFrameTransparent1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBoxStringBGFrameColor.ResumeLayout(False)
         Me.GroupBoxStringBGFrameColor.PerformLayout()
@@ -6734,7 +6741,6 @@ Partial Class Form3
         Me.TabPageStringShadow文字影.PerformLayout()
         CType(Me.NumericUpDownStringShadowV縦, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownStringShadowH横, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxStringShadowColor2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownStringShadowColorTransparent2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownStringShadowColorTransparent1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox5.ResumeLayout(False)
@@ -6744,17 +6750,13 @@ Partial Class Form3
         Me.TabPageStringFringe縁取り.PerformLayout()
         CType(Me.NumericUpDownStringFringeWidth, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownStringFringeGradationAngleグラデ角度, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxStringFringeColor2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxStringFringeColor1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownStringFringeTransparent1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownStringFringeTransparent2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxTextSample, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPageRect.ResumeLayout(False)
         Me.TabPageDrawPath.ResumeLayout(False)
         Me.TabPageDrawPath.PerformLayout()
-        CType(Me.PictureBoxShape2影の色, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown曲線のテンション, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBoxPenの色, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDownPathPenの太さ, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPageColorMatrix.ResumeLayout(False)
         Me.TabPageColorMatrix.PerformLayout()
@@ -6827,7 +6829,19 @@ Partial Class Form3
         CType(Me.NumericUpDownStringFringeBold, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxTextColor2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxTextColor1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxStringBGColor2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxStringBGColor1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxStringBGFrameColor2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxStringBGFrameColor1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxStringShadowColor2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBoxStringShadowColor1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxStringFringeColor2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxStringFringeColor1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxShapeColor3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxShapeColor2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxShapeColor1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxShape2影の色, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBoxPenの色, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

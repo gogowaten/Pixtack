@@ -37,10 +37,10 @@ Partial Class Form1
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ButtonShowFormText = New System.Windows.Forms.Button()
         Me.CheckBox_SaveForTwitter = New System.Windows.Forms.CheckBox()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.ButtonBackColorReset = New System.Windows.Forms.Button()
-        Me.ButtonShowFormText = New System.Windows.Forms.Button()
         Me.ButtonCopyPasteTransparent = New System.Windows.Forms.Button()
         Me.PictureBoxBackup = New System.Windows.Forms.PictureBox()
         Me.GroupBoxOld = New System.Windows.Forms.GroupBox()
@@ -378,6 +378,19 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(304, 655)
         Me.Panel1.TabIndex = 40
         '
+        'ButtonShowFormText
+        '
+        Me.ButtonShowFormText.AutoSize = True
+        Me.ButtonShowFormText.BackColor = System.Drawing.Color.DarkSeaGreen
+        Me.ButtonShowFormText.Font = New System.Drawing.Font("Meiryo UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.ButtonShowFormText.ForeColor = System.Drawing.Color.White
+        Me.ButtonShowFormText.Location = New System.Drawing.Point(224, 174)
+        Me.ButtonShowFormText.Name = "ButtonShowFormText"
+        Me.ButtonShowFormText.Size = New System.Drawing.Size(78, 25)
+        Me.ButtonShowFormText.TabIndex = 88
+        Me.ButtonShowFormText.Text = "文字の描画"
+        Me.ButtonShowFormText.UseVisualStyleBackColor = False
+        '
         'CheckBox_SaveForTwitter
         '
         Me.CheckBox_SaveForTwitter.AutoSize = True
@@ -410,19 +423,6 @@ Partial Class Form1
         Me.ButtonBackColorReset.TabIndex = 89
         Me.ButtonBackColorReset.Text = "リセット"
         Me.ButtonBackColorReset.UseVisualStyleBackColor = True
-        '
-        'ButtonShowFormText
-        '
-        Me.ButtonShowFormText.AutoSize = True
-        Me.ButtonShowFormText.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.ButtonShowFormText.Font = New System.Drawing.Font("Meiryo UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.ButtonShowFormText.ForeColor = System.Drawing.Color.White
-        Me.ButtonShowFormText.Location = New System.Drawing.Point(224, 174)
-        Me.ButtonShowFormText.Name = "ButtonShowFormText"
-        Me.ButtonShowFormText.Size = New System.Drawing.Size(78, 25)
-        Me.ButtonShowFormText.TabIndex = 88
-        Me.ButtonShowFormText.Text = "文字の描画"
-        Me.ButtonShowFormText.UseVisualStyleBackColor = False
         '
         'ButtonCopyPasteTransparent
         '
@@ -1156,6 +1156,8 @@ Partial Class Form1
         'CheckBoxSelectPicPoint
         '
         Me.CheckBoxSelectPicPoint.AutoSize = True
+        Me.CheckBoxSelectPicPoint.Checked = True
+        Me.CheckBoxSelectPicPoint.CheckState = System.Windows.Forms.CheckState.Checked
         Me.CheckBoxSelectPicPoint.Location = New System.Drawing.Point(41, 15)
         Me.CheckBoxSelectPicPoint.Name = "CheckBoxSelectPicPoint"
         Me.CheckBoxSelectPicPoint.Size = New System.Drawing.Size(108, 19)
@@ -1235,11 +1237,13 @@ Partial Class Form1
         'RadioButtonStack
         '
         Me.RadioButtonStack.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButtonStack.Checked = True
         Me.RadioButtonStack.Image = Global.Pixtack.My.Resources.Resources.stack22_16
         Me.RadioButtonStack.Location = New System.Drawing.Point(6, 13)
         Me.RadioButtonStack.Name = "RadioButtonStack"
         Me.RadioButtonStack.Size = New System.Drawing.Size(79, 24)
         Me.RadioButtonStack.TabIndex = 0
+        Me.RadioButtonStack.TabStop = True
         Me.RadioButtonStack.Text = "重ねる"
         Me.RadioButtonStack.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.RadioButtonStack.UseVisualStyleBackColor = False
@@ -1248,13 +1252,11 @@ Partial Class Form1
         '
         Me.RadioButtonUnstack.BackColor = System.Drawing.Color.Transparent
         Me.RadioButtonUnstack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.RadioButtonUnstack.Checked = True
         Me.RadioButtonUnstack.Image = Global.Pixtack.My.Resources.Resources.stack13_16
         Me.RadioButtonUnstack.Location = New System.Drawing.Point(89, 13)
         Me.RadioButtonUnstack.Name = "RadioButtonUnstack"
         Me.RadioButtonUnstack.Size = New System.Drawing.Size(88, 24)
         Me.RadioButtonUnstack.TabIndex = 1
-        Me.RadioButtonUnstack.TabStop = True
         Me.RadioButtonUnstack.Text = "重ねない"
         Me.RadioButtonUnstack.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.RadioButtonUnstack.UseVisualStyleBackColor = False
@@ -1682,7 +1684,6 @@ Partial Class Form1
         '
         'StatusStrip1
         '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel3, Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel4, Me.ToolStripStatusLabel5, Me.ToolStripStatusLabel6, Me.ToolStripStatusLabel7})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 655)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(896, 22)
